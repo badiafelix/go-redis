@@ -47,7 +47,7 @@ func main() {
 
 	rdb := newRedisClient(redisHost, redisPassword)
 	key := "name"
-	data := "badai engineer"
+	data := "badai engineerr"
 	ttl := time.Duration(100) * time.Second
 
 	//insert data
